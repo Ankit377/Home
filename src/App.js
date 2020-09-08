@@ -1,11 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 // import SignUp from "./SignUP";
 import "./App.css";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
   Redirect,
 } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";

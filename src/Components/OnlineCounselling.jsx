@@ -1,13 +1,13 @@
 import React from "react";
 import ButtonAppBar from "./ButtonAppBar";
 import MenuButton from "./MenuButton";
-import { makeStyles, StylesProvider } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     margin: theme.spacing(1),
-    paddingTop: "50%",
+    paddingTop: "50vh",
   },
   btn: {
     background: "black",
