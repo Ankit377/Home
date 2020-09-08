@@ -1,12 +1,28 @@
 import React from "react";
 import Input from "./Input";
-import Button from "@material-ui/core/Button";
+import Btn from "./Components/Btn";
+import { Grid } from "@material-ui/core";
 
+const btn = {
+  margin: "20px",
+};
+const maindiv = {
+  position: "relative",
+  top: "30vh",
+};
 export default function SignIn() {
   return (
     <>
-      <Input pattern="[0-9]" type="number" placeholder="Enter Mobile Number" />
-      <Button>Sign In</Button>
+      <div style={maindiv}>
+        <Input
+          pattern="[0-9]"
+          type="number"
+          placeholder="Enter Mobile Number"
+        />
+        <div style={btn}>
+          <Btn name="Sign In">Sign In</Btn>
+        </div>
+      </div>
     </>
   );
 }

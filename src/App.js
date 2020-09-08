@@ -8,7 +8,7 @@ import {
   Link,
   Redirect,
 } from "react-router-dom";
-
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Components/Home";
 
 import Scholarship from "./Components/Scholarship";
@@ -18,7 +18,7 @@ import OnlineCounselling from "./Components/OnlineCounselling";
 import InfoVideos from "./Components/InfoVideos";
 import LiveInteractionClass from "./Components/LiveInteractionClass";
 import MyCourses from "./Components/MyCourses";
-
+import PaidCounselling from "./PaidCounselling";
 function App() {
   return (
     <div className="App">
@@ -40,7 +40,8 @@ function App() {
               path="/liveinteractionclass"
               component={LiveInteractionClass}
             ></Route>
-            {/* <Redirect to="/" /> */}
+            <Route path="/paidcounselling" component={PaidCounselling}></Route>
+            <Redirect to="/" />
           </Switch>
         </div>
       </Router>

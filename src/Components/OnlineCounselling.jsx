@@ -2,6 +2,7 @@ import React from "react";
 import ButtonAppBar from "./ButtonAppBar";
 import MenuButton from "./MenuButton";
 import { makeStyles, StylesProvider } from "@material-ui/core/styles";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,8 +25,9 @@ export default function OnlineCounselling() {
       <ButtonAppBar title="Online Counselling" />
       <div className={classes.root}>
         <MenuButton name="Free" />
-
-        <MenuButton name="Paid" />
+        <Link to="/paidcounselling">
+          <MenuButton name="Paid" />
+        </Link>
       </div>
     </>
   );
