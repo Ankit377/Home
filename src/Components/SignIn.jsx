@@ -1,6 +1,6 @@
 import React from "react";
-import Input from "./Input";
-import Btn from "./Components/Btn";
+import Input from "../Input";
+import Btn from "./Btn";
 
 const btn = {
   margin: "20px",

@@ -1,6 +1,6 @@
 import React from "react";
 import PriceBox from "./PriceBox";
-import ButtonAppBar from "./Components/ButtonAppBar";
+import ButtonAppBar from "./ButtonAppBar";
 
 export default function PaidCounselling() {
   return (

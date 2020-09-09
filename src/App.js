@@ -17,7 +17,7 @@ import OnlineCounselling from "./Components/OnlineCounselling";
 import InfoVideos from "./Components/InfoVideos";
 import LiveInteractionClass from "./Components/LiveInteractionClass";
 import MyCourses from "./Components/MyCourses";
-import PaidCounselling from "./PaidCounselling";
+import PaidCounselling from "./Components/PaidCounselling";
 function App() {
   return (
     <div className="App">

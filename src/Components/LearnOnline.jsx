@@ -1,6 +1,6 @@
 import React from "react";
 import ButtonAppBar from "./ButtonAppBar";
-import SignIn from "../SignIn";
+import SignIn from "./SignIn";
 
 export default function LearnOnline() {
   return (

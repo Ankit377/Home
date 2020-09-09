@@ -26,7 +26,6 @@ export default function Home() {
             />
           </Link>
 
-<<<<<<< HEAD
           <Link to="/scholarship">
             <MenuButton name="Scholarship" />
           </Link>
@@ -44,35 +43,6 @@ export default function Home() {
           </Link>
         </div>
       </HashRouter>
-=======
-      <div className="">
-        <Link to="/aboutyourself">
-          <MenuButton name="About Your Self" className={classes.about} />
-        </Link>
-        <Link to="/onlinecounselling">
-          <MenuButton
-            name="Online Counselling"
-            className={classes.counselling}
-          />
-        </Link>
-
-        <Link to="/scholarship">
-          <MenuButton name="Scholarship" />
-        </Link>
-        <Link to="/learnonline">
-          <MenuButton name="Learn Online" /> 
-        </Link>
-        <Link to="/infovideos">
-          <MenuButton name="Info Videos" />
-        </Link>
-        <Link to="/mycourses">
-          <MenuButton name="My Courses" />
-        </Link>
-        <Link to="/liveinteractionclass">
-          <MenuButton name="Live Interaction Class" />
-        </Link>
-      </div>
->>>>>>> 4ea4ada53450080531400de77a468a7f0b4d1f42
     </>
   );
 }
