@@ -13,29 +13,35 @@ export default function Home() {
   const classes = useStyles();
   return (
     <>
-      <MenuIcon className={classes.menuicon} />
-      <Link to="/aboutyourself">
-        <MenuButton name="About Your Self" className={classes.about} />
-      </Link>
-      <Link to="/onlinecounselling">
-        <MenuButton name="Online Counselling" className={classes.counselling} />
-      </Link>
+      <MenuIcon className="d-flex flex-row m-3" />
 
-      <Link to="/scholarship">
-        <MenuButton name="Scholarship" />
-      </Link>
-      <Link to="/learnonline">
-        <MenuButton name="Learn Online" />
-      </Link>
-      <Link to="/infovideos">
-        <MenuButton name="Info Videos" />
-      </Link>
-      <Link to="/mycourses">
-        <MenuButton name="My Courses" />
-      </Link>
-      <Link to="/liveinteractionclass">
-        <MenuButton name="Live Interaction Class" />
-      </Link>
+      <div className="">
+        <Link to="/aboutyourself">
+          <MenuButton name="About Your Self" className={classes.about} />
+        </Link>
+        <Link to="/onlinecounselling">
+          <MenuButton
+            name="Online Counselling"
+            className={classes.counselling}
+          />
+        </Link>
+
+        <Link to="/scholarship">
+          <MenuButton name="Scholarship" />
+        </Link>
+        <Link to="/learnonline">
+          <MenuButton name="Learn Online" />
+        </Link>
+        <Link to="/infovideos">
+          <MenuButton name="Info Videos" />
+        </Link>
+        <Link to="/mycourses">
+          <MenuButton name="My Courses" />
+        </Link>
+        <Link to="/liveinteractionclass">
+          <MenuButton name="Live Interaction Class" />
+        </Link>
+      </div>
     </>
   );
 }
