@@ -30,7 +30,7 @@ export default function Home() {
           <MenuButton name="Scholarship" />
         </Link>
         <Link to="/learnonline">
-          <MenuButton name="Learn Online" />
+          <MenuButton name="Learn Online" /> 
         </Link>
         <Link to="/infovideos">
           <MenuButton name="Info Videos" />
