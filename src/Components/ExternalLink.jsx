@@ -9,7 +9,7 @@ export default function ExternalLink(props) {
       <Iframe
         url={props.url}
         width="100%"
-        height="700px"
+        height="1000px"
         id="myId"
         className="myClassname"
         position="relative"
