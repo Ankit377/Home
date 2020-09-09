@@ -18,6 +18,8 @@ import InfoVideos from "./Components/InfoVideos";
 import LiveInteractionClass from "./Components/LiveInteractionClass";
 import MyCourses from "./Components/MyCourses";
 import PaidCounselling from "./Components/PaidCounselling";
+import GermayScholarship from "./Components/GermayScholarship";
+
 function App() {
   return (
     <div className="App">
@@ -40,6 +42,12 @@ function App() {
               component={LiveInteractionClass}
             ></Route>
             <Route path="/paidcounselling" component={PaidCounselling}></Route>
+            {/* <Route
+              path="/google"
+              component={() => (window.location = "https://google.com")}
+            ></Route> */}
+
+            <Route path="/germany" component={GermayScholarship} />
             <Redirect to="/" />
           </Switch>
         </div>

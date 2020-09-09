@@ -9,13 +9,6 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
     paddingTop: "50vh",
   },
-  btn: {
-    background: "black",
-    color: "#747070",
-    textShadow: "3px 2px 7px #5A4343 ",
-    boxShadow: "3px 3px 20px #0000000",
-    margin: "15px",
-  },
 }));
 
 export default function OnlineCounselling() {
