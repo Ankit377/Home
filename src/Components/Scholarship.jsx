@@ -8,8 +8,17 @@ export default function Scholarship() {
     <>
       <ButtonAppBar title="Scholarship" />
 
-      <Link to="/germany">
+      <Link to="/germanyscholarship">
         <MenuButton name="Germany" />
+      </Link>
+      <Link to="/italyscholarship">
+        <MenuButton name="Italy" />
+      </Link>
+      <Link to="/canadascholarship">
+        <MenuButton name="Canada" />
+      </Link>
+      <Link to="/russiascholarship">
+        <MenuButton name="Russia" />
       </Link>
     </>
   );

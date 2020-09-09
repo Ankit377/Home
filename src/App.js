@@ -19,6 +19,9 @@ import LiveInteractionClass from "./Components/LiveInteractionClass";
 import MyCourses from "./Components/MyCourses";
 import PaidCounselling from "./Components/PaidCounselling";
 import GermayScholarship from "./Components/GermayScholarship";
+import ItalyScholarship from "./Components/ItalyScholarship";
+import CanadaScholarship from "./Components/CanadaScholarship";
+import RussiaScholarship from "./Components/RussiaScholarship";
 
 function App() {
   return (
@@ -47,7 +50,10 @@ function App() {
               component={() => (window.location = "https://google.com")}
             ></Route> */}
 
-            <Route path="/germany" component={GermayScholarship} />
+            <Route path="/germanyscholarship" component={GermayScholarship} />
+            <Route path="/italyscholarship" component={ItalyScholarship} />
+            <Route path="/canadascholarship" component={CanadaScholarship} />
+            <Route path="/russiascholarship" component={RussiaScholarship} />
             <Redirect to="/" />
           </Switch>
         </div>
