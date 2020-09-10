@@ -33,6 +33,7 @@ export default function InfoVideos() {
           >
             <Btn name="Germany Info Videos" />
           </a>
+          <Btn nan="Russia" />
         </div>
       </div>
     </>
