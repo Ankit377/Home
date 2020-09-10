@@ -1,6 +1,13 @@
 import React from "react";
 import ButtonAppBar from "./ButtonAppBar";
 import Btn from "./Btn";
+window.onload = function () {
+  // <!--Deep link URL
+  // for existing users with app already installed on their device-- >
+  window.location = "yourapp://app.com/?screen=xxxxx";
+  // !--Download URL(TUNE link) for new users to download the app-- >
+  //setTimeout(window.location = 'http://hastrk.com/serve?action=click&publisher_id=1&site_id=2', 1000);
+};
 
 export default function InfoVideos() {
   return (
