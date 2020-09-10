@@ -17,7 +17,7 @@ export default function InfoVideos() {
       <div>
         <div className=" " style={{ padding: "50% 0" }}>
           <a
-            href="https://www.youtube.com/watch?v=JcxWSyowE1Q&list=PLY3DMTGnFv2a0Sl1H5Qp0-X6Z8iurqSRT"
+            href="intent://https://www.youtube.com/watch?v=JcxWSyowE1Q&list=PLY3DMTGnFv2a0Sl1H5Qp0-X6Z8iurqSRT/#Intent;scheme=yourapp;package=com.yourapp.example"
             target="blank"
           >
             <Btn
