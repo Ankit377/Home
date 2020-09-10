@@ -10,9 +10,6 @@ import Iframe from "react-iframe";
 //   // !--Download URL(TUNE link) for new users to download the app-- >
 //   //setTimeout(window.location = 'http://hastrk.com/serve?action=click&publisher_id=1&site_id=2', 1000);
 // };
-// setTimeout(function () {
-//   window.location.replace("https://itunes.apple.com/app/id12345678");
-// }, 2000);
 
 export default function InfoVideos() {
   return (
@@ -34,6 +31,9 @@ export default function InfoVideos() {
                 //  (window.location.replace = "yourapp://app.com/?screen=xxxxx")
               }
             />
+            {/* setTimeout(function ()
+            {window.location.replace("https://itunes.apple.com/app/id12345678")}
+            , 2000); */}
           </a>
           <a
             href="https://www.youtube.com/watch?v=JcxWSyowE1Q&list=PLY3DMTGnFv2a0Sl1H5Qp0-X6Z8iurqSRT"
@@ -51,7 +51,7 @@ export default function InfoVideos() {
           </Iframe>
 
           <a
-            href="intent://scan/#Intent;scheme=zxing;package=com.google.android.youtube.player
+            href="intent://scan/#Intent;scheme=youtube;package=com.google.android.youtube.player
 ;end"
           >
             <Btn name="intent" />
