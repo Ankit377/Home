@@ -23,7 +23,7 @@ export default function InfoVideos() {
             <Btn
               name="Germany Info Videos"
               onClick={() =>
-                (window.location = "yourapp://app.com/?screen=xxxxx")
+                (window.location.replace = "yourapp://app.com/?screen=xxxxx")
               }
             />
           </a>
