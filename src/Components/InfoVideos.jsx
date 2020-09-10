@@ -7,7 +7,10 @@ export default function InfoVideos() {
     <>
       <ButtonAppBar title="InfoVideos" />
       <div>
-        <a href="https://www.youtube.com/watch?v=JcxWSyowE1Q&list=PLY3DMTGnFv2a0Sl1H5Qp0-X6Z8iurqSRT">
+        <a
+          href="https://www.youtube.com/watch?v=JcxWSyowE1Q&list=PLY3DMTGnFv2a0Sl1H5Qp0-X6Z8iurqSRT"
+          target="blank"
+        >
           <Btn name="Germany Info Videos" />
         </a>
       </div>
