@@ -10,9 +10,9 @@ import Iframe from "react-iframe";
 //   // !--Download URL(TUNE link) for new users to download the app-- >
 //   //setTimeout(window.location = 'http://hastrk.com/serve?action=click&publisher_id=1&site_id=2', 1000);
 // };
-setTimeout(function () {
-  window.location.replace("https://itunes.apple.com/app/id12345678");
-}, 2000);
+// setTimeout(function () {
+//   window.location.replace("https://itunes.apple.com/app/id12345678");
+// }, 2000);
 
 export default function InfoVideos() {
   return (
