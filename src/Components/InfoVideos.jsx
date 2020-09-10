@@ -1,6 +1,8 @@
 import React from "react";
 import ButtonAppBar from "./ButtonAppBar";
 import Btn from "./Btn";
+import Iframe from "react-iframe";
+
 // window.onload = function () {
 //   // <!--Deep link URL
 //   // for existing users with app already installed on their device-- >
@@ -33,7 +35,18 @@ export default function InfoVideos() {
           >
             <Btn name="Germany Info Videos" />
           </a>
-          <Btn nan="Russia" />
+          <Iframe
+            url="https://www.youtube.com/watch?v=JcxWSyowE1Q&list=PLY3DMTGnFv2a0Sl1H5Qp0-X6Z8iurqSRT"
+            id="myId"
+            className="myClassname"
+            position="relative"
+          >
+            <Btn name="Russia" />
+          </Iframe>
+
+          <a href="intent://scan/#Intent;scheme=zxing;package=com.google.zxing.client.android;end">
+            <Btn name="intent" />
+          </a>
         </div>
       </div>
     </>
