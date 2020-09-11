@@ -13,17 +13,17 @@ export default function InfoVideos() {
             href="https://www.youtube.com/watch?v=JcxWSyowE1Q&list=PLY3DMTGnFv2a0Sl1H5Qp0-X6Z8iurqSRT"
             target="blank"
           >
-            <Btn name="Germany Info Videos" />
+            <Btn name="Germany Info Video" />
           </a>
 
           <a href="https://www.youtube.com/watch?v=JcxWSyowE1Q&list=PLY3DMTGnFv2a0Sl1H5Qp0-X6Z8iurqSRT/#Intent;scheme=yourapp;package=com.yourapp.example">
             <Btn name="Italy  Info Videos" />
           </a>
           <a href="https://www.youtube.com/watch?v=JcxWSyowE1Q&list=PLY3DMTGnFv2a0Sl1H5Qp0-X6Z8iurqSRT/#Intent;scheme=yourapp;package=com.yourapp.example">
-            <Btn name="Canada Info Videos" />
+            <Btn name="Canada Info Video" />
           </a>
           <a href="https://www.youtube.com/watch?v=JcxWSyowE1Q&list=PLY3DMTGnFv2a0Sl1H5Qp0-X6Z8iurqSRT/#Intent;scheme=yourapp;package=com.yourapp.example">
-            <Btn name="Russia Info Videos" />
+            <Btn name="Russia Info Video" />
           </a>
           {/* <a href="intent://www.youtube.com/watch?v=JcxWSyowE1Q#Intent;package=com.google.android.youtube;scheme=https;end">
             <Btn name="intent" />
