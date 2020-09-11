@@ -17,7 +17,7 @@ export default function InfoVideos() {
           </a>
 
           <a href="https://www.youtube.com/watch?v=JcxWSyowE1Q&list=PLY3DMTGnFv2a0Sl1H5Qp0-X6Z8iurqSRT/#Intent;scheme=yourapp;package=com.yourapp.example">
-            <Btn name="Italy Info Videos" />
+            <Btn name="Italy  Info Videos" />
           </a>
           <a href="https://www.youtube.com/watch?v=JcxWSyowE1Q&list=PLY3DMTGnFv2a0Sl1H5Qp0-X6Z8iurqSRT/#Intent;scheme=yourapp;package=com.yourapp.example">
             <Btn name="Canada Info Videos" />
