@@ -39,6 +39,9 @@ export default function InfoVideos() {
           <a href="intent://www.youtube.com/watch?v=JcxWSyowE1Q#Intent;package=com.google.android.youtube;scheme=https;end">
             <Btn name="intent" />
           </a>
+          <a href="https://www.youtube.com/watch?v=JcxWSyowE1Q&list=PLY3DMTGnFv2a0Sl1H5Qp0-X6Z8iurqSRT/#Intent;scheme=yourapp;package=com.yourapp.example">
+            <Btn name="Germay final change" />
+          </a>
         </div>
       </div>
     </>
