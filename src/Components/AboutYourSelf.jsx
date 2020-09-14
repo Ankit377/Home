@@ -2,6 +2,7 @@ import React from "react";
 import ButtonAppBar from "./ButtonAppBar";
 import { useForm } from "react-hook-form";
 import "./aboutyourself.css";
+import Btn from "./Btn";
 
 export default function AboutYourSelf() {
   const { register, handleSubmit } = useForm();
@@ -20,7 +21,6 @@ export default function AboutYourSelf() {
           })}
           placeholder="Enter Full Name"
         />
-
         <label htmlFor="">DOB*</label>
         <input
           type="date"
@@ -56,6 +56,7 @@ export default function AboutYourSelf() {
           name="Enter Highest Qualification "
           ref={register}
         />
+        <hr />
         <p>What are you looking for ?</p>
         <label htmlFor="russiacheckbox">
           Scholarship in Russia
@@ -151,6 +152,7 @@ export default function AboutYourSelf() {
           />
         </label>
         <hr />
+
         <label htmlFor="">Pincode</label>
         <input
           type="tel"
@@ -188,18 +190,14 @@ export default function AboutYourSelf() {
         <label htmlFor="">IELTS</label>
         <input type="file" placeholder="IELTS" name="IELTS" ref={register} />
         <label htmlFor="">Any Other Relevant Document</label>
+
         <input
           type="file"
           placeholder="Any Other Relevant Document"
           name="Any Other Relevant Document"
           ref={register}
         />
-        <select class="custom-select" multiple>
-          <option selected>Open this select menu</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
-        </select>
+
         <input type="submit" />
       </form>
     </>
