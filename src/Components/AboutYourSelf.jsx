@@ -10,7 +10,7 @@ export default function AboutYourSelf() {
   return (
     <>
       <ButtonAppBar title="About Your Self" />
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor="">Full Name*</label>
         <input
           type="text"
@@ -20,6 +20,7 @@ export default function AboutYourSelf() {
           })}
           placeholder="Enter Full Name"
         />
+
         <label htmlFor="">DOB*</label>
         <input
           type="date"
@@ -56,78 +57,99 @@ export default function AboutYourSelf() {
           ref={register}
         />
         <p>What are you looking for ?</p>
-        <label htmlFor="">Scholarship in Russia</label>
-        <input
-          type="checkbox"
-          placeholder="Scholarship in Russia"
-          name="Scholarship in Russia"
-          ref={register({ min: 1 })}
-        />
-        <label htmlFor="">Scholarship in Germany </label>
-        <input
-          type="checkbox"
-          placeholder="Scholarship in Germany "
-          name="Scholarship in Germany "
-          ref={register}
-        />
-        <label htmlFor="">cholarship in Italy</label>
-        <input
-          type="checkbox"
-          placeholder="Scholarship in Italy"
-          name="Scholarship in Italy"
-          ref={register}
-        />
-        <label htmlFor="">All of the above</label>
-        <input
-          type="checkbox"
-          placeholder="All of the above"
-          name="All of the above"
-          ref={register}
-        />
+        <label htmlFor="russiacheckbox">
+          Scholarship in Russia
+          <input
+            type="checkbox"
+            placeholder="Scholarship in Russia"
+            name="Scholarship in Russia"
+            id="russiacheckbox"
+            ref={register({ min: 1 })}
+          />
+        </label>
+        <label htmlFor="">
+          Scholarship in Germany
+          <input
+            type="checkbox"
+            placeholder="Scholarship in Germany "
+            name="Scholarship in Germany "
+            ref={register}
+          />
+        </label>
+        <label htmlFor="">
+          scholarship in Italy
+          <input
+            type="checkbox"
+            placeholder="Scholarship in Italy"
+            name="Scholarship in Italy"
+            ref={register}
+          />
+        </label>
+        <label htmlFor="">
+          All of the above
+          <input
+            type="checkbox"
+            placeholder="All of the above"
+            name="All of the above"
+            ref={register}
+          />
+        </label>
         <hr />
         <p>Which course are you intent to study ?</p>
-        <label htmlFor="">Engineering</label>
-        <input
-          type="checkbox"
-          placeholder="Engineering"
-          name="Engineering"
-          ref={register}
-        />
-        <label htmlFor="">Medical</label>
-        <input
-          type="checkbox"
-          placeholder="Medical"
-          name="Medical"
-          ref={register}
-        />
-        <label htmlFor="">Commerce</label>
-        <input
-          type="checkbox"
-          placeholder="Commerce"
-          name="Commerce"
-          ref={register}
-        />
-        <label htmlFor="">Management</label>
-        <input
-          type="checkbox"
-          placeholder="Management"
-          name="Management"
-          ref={register}
-        />
-        <label htmlFor="">Humanities</label>
-        <input
-          type="checkbox"
-          placeholder="Humanities"
-          name="Humanities"
-          ref={register}
-        />
-        <label htmlFor="">Others Course</label>
-        <input
-          type="text"
-          placeholder="Write course here"
-          name="Others"
-          ref={register}
-        />
+        <label htmlFor="">
+          Engineering
+          <input
+            type="checkbox"
+            placeholder="Engineering"
+            name="Engineering"
+            ref={register}
+          />
+        </label>
+        <label htmlFor="">
+          Medical
+          <input
+            type="checkbox"
+            placeholder="Medical"
+            name="Medical"
+            ref={register}
+          />
+        </label>
+        <label htmlFor="">
+          Commerce
+          <input
+            type="checkbox"
+            placeholder="Commerce"
+            name="Commerce"
+            ref={register}
+          />
+        </label>
+        <label htmlFor="">
+          Management
+          <input
+            type="checkbox"
+            placeholder="Management"
+            name="Management"
+            ref={register}
+          />
+        </label>
+        <label htmlFor="">
+          Humanities
+          <input
+            type="checkbox"
+            placeholder="Humanities"
+            name="Humanities"
+            ref={register}
+          />
+        </label>
+        <label htmlFor="">
+          Others Course
+          <input
+            type="text"
+            placeholder="Write course here"
+            name="Others"
+            ref={register}
+          />
+        </label>
         <hr />
         <label htmlFor="">Pincode</label>
         <input
@@ -172,7 +194,12 @@ export default function AboutYourSelf() {
           name="Any Other Relevant Document"
           ref={register}
         />
-
+        <select class="custom-select" multiple>
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
         <input type="submit" />
       </form>
     </>

@@ -12,35 +12,34 @@ h1 {
 }
 
 .form {
-  background: #0e101c;
+  background: #fff;
   max-width: 400px;
   margin: 0 auto;
 }
 
-/* p {
-  color: #bf1650;
-} */
+p {
+  /* color: #bf1650; */
+  margin: 10px;
+}
 
 p::before {
   display: inline;
 }
 
 input {
-  display: flex;
-  flex-direction: row;
   box-sizing: border-box;
-  width: 100%;
+  width: 80%;
   border-radius: 4px;
   border: 1px solid #ccc;
   padding: 10px 15px;
-  margin-bottom: 10px;
+  margin-top: 10px;
   font-size: 14px;
+  margin-right: auto;
 }
 
 label {
-  display: flex;
-  flex-direction: row;
-
+  display: inline-block;
+  width: 80%;
   line-height: 2;
   text-align: left;
   margin-bottom: 13px;
@@ -63,12 +62,13 @@ input[type="submit"] {
   letter-spacing: 10px;
 }
 input[type="checkbox"] {
-  background: #333;
+  /* background: #333;
   color: black;
   text-transform: uppercase;
-  border: none;
+  border: none; */
 
-  display: inherit;
+  /* display: inherit; */
+  width: 20%;
 }
 
 button[type="submit"]:hover,
