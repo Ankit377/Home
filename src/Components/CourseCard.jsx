@@ -5,7 +5,8 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
-import Btn from "./Btn";
+
+
 
 const useStyles = makeStyles({
   root: {
@@ -35,7 +36,6 @@ export default function CourseCard(props) {
         </CardContent>
       </CardActionArea>
 
-      <Btn name="Play" />
-    </Card>
-  );
+    </Card >
+  )
 }

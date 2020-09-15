@@ -22,6 +22,7 @@ import GermayScholarship from "./Components/GermayScholarship";
 import ItalyScholarship from "./Components/ItalyScholarship";
 import CanadaScholarship from "./Components/CanadaScholarship";
 import RussiaScholarship from "./Components/RussiaScholarship";
+import EnglishCourse from "./Components/EnglishCourse";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
             <Route path="/italyscholarship" component={ItalyScholarship} />
             <Route path="/canadascholarship" component={CanadaScholarship} />
             <Route path="/russiascholarship" component={RussiaScholarship} />
+            <Route path="/englishcourse" component={EnglishCourse} />
             <Redirect to="/" />
           </Switch>
         </div>

@@ -197,6 +197,16 @@ export default function AboutYourSelf() {
           name="Any Other Relevant Document"
           ref={register}
         />
+        <div>
+          <Btn name="upload" />
+          <input
+            className="d-none"
+            type="file"
+            placeholder="Any Other Relevant Document"
+            name="Any Other Relevant Document"
+            ref={register}
+          />
+        </div>
 
         <input type="submit" />
       </form>
