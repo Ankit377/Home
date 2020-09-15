@@ -6,12 +6,6 @@ import ButtonAppBar from './ButtonAppBar';
 
 export default function EnglishCourse() {
 
-
-
-
-
-
-
     return (
         <>
             <ButtonAppBar title="English Crash Course" />

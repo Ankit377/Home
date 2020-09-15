@@ -18,7 +18,7 @@ export default function MyCourses() {
       </Link>
       <CourseCard
         img={fing}
-        title="Basic German Course"
+        title="IELTS"
         description="From zero to able to speak, write and do basic communication you can learn from this course. design in a way that you can practice after each lesson"
       />
       <Link to="/englishcourse">
@@ -26,7 +26,7 @@ export default function MyCourses() {
       </Link>
       <CourseCard
         img={fing}
-        title="Basic German Course"
+        title="GMAT"
         description="From zero to able to speak, write and do basic communication you can learn from this course. design in a way that you can practice after each lesson"
       />
       <Link to="/englishcourse">
