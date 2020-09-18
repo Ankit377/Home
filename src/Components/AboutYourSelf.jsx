@@ -2,7 +2,6 @@ import React from "react";
 import ButtonAppBar from "./ButtonAppBar";
 import { useForm } from "react-hook-form";
 import "./aboutyourself.css";
-import Btn from "./Btn";
 
 export default function AboutYourSelf() {
   const { register, handleSubmit } = useForm();
@@ -65,6 +64,7 @@ export default function AboutYourSelf() {
             placeholder="Scholarship in Russia"
             name="Scholarship in Russia"
             id="russiacheckbox"
+            value="Russia"
             ref={register({ min: 1 })}
           />
         </label>
@@ -74,6 +74,7 @@ export default function AboutYourSelf() {
             type="checkbox"
             placeholder="Scholarship in Germany "
             name="Scholarship in Germany "
+            value="Germany"
             ref={register}
           />
         </label>
@@ -83,6 +84,7 @@ export default function AboutYourSelf() {
             type="checkbox"
             placeholder="Scholarship in Italy"
             name="Scholarship in Italy"
+            value="Italy"
             ref={register}
           />
         </label>
@@ -92,6 +94,7 @@ export default function AboutYourSelf() {
             type="checkbox"
             placeholder="All of the above"
             name="All of the above"
+            value="Russia,Germany,Italy"
             ref={register}
           />
         </label>
@@ -103,6 +106,7 @@ export default function AboutYourSelf() {
             type="checkbox"
             placeholder="Engineering"
             name="Engineering"
+            value="Engineering"
             ref={register}
           />
         </label>
@@ -112,6 +116,7 @@ export default function AboutYourSelf() {
             type="checkbox"
             placeholder="Medical"
             name="Medical"
+            value="Medical"
             ref={register}
           />
         </label>
@@ -121,6 +126,7 @@ export default function AboutYourSelf() {
             type="checkbox"
             placeholder="Commerce"
             name="Commerce"
+            value="Commerce"
             ref={register}
           />
         </label>
@@ -130,6 +136,7 @@ export default function AboutYourSelf() {
             type="checkbox"
             placeholder="Management"
             name="Management"
+            value="Management"
             ref={register}
           />
         </label>
@@ -139,6 +146,7 @@ export default function AboutYourSelf() {
             type="checkbox"
             placeholder="Humanities"
             name="Humanities"
+            value="Humanities"
             ref={register}
           />
         </label>
@@ -202,5 +210,6 @@ export default function AboutYourSelf() {
         <input type="submit" />
       </form>
     </>
+
   );
 }

@@ -7,7 +7,8 @@ export default function Home() {
   return (
     <>
       <div className="">
-        <MenuIcon className="d-flex flex-row m-3" />
+        {/* hamburger menu icon */}
+        {/* <MenuIcon className="d-flex flex-row m-3" /> */}
         <Link to="/aboutyourself">
           <MenuButton name="About Your Self" />
         </Link>
