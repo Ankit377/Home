@@ -4,10 +4,14 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import LogRocket from 'logrocket';
+LogRocket.init('7zfawr/scholarship');
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+
+
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
-      <div className="">
+      <div className="mainmenu">
         {/* hamburger menu icon */}
         {/* <MenuIcon className="d-flex flex-row m-3" /> */}
         <Link to="/aboutyourself">
