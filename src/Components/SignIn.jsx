@@ -18,6 +18,16 @@ export default function SignIn() {
           type="number"
           placeholder="Enter Mobile Number"
         />
+        <Input
+
+          type="text"
+          placeholder="Enter Name"
+        />
+        <Input
+
+          type="email"
+          placeholder="Enter email address"
+        />
         <div style={btn}>
           <Btn name="Sign In">Sign In</Btn>
         </div>

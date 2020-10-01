@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import ButtonAppBar from "./ButtonAppBar";
 import { useForm } from "react-hook-form";
 import "./aboutyourself.css";
 
 export default function AboutYourSelf() {
   const { register, handleSubmit } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const [validcheckbox, setCheckbox] = useState(false);
+  console.log(validcheckbox);
+  const checkboxHandler = () => {
+    if (document.getElementById("schCheckbox").checked) {
+      return setCheckbox(true);
+    } else {
+      setCheckbox(false);
+    }
+  };
 
+  const onSubmit = (data) => {
+    validcheckbox ? alert("form submitted") : alert("please check all value");
+  };
   return (
     <>
       <ButtonAppBar title="About Your Self" />
@@ -56,16 +67,17 @@ export default function AboutYourSelf() {
           ref={register}
         />
         <hr />
-        <p>What are you looking for ?</p>
+        <p>What are you looking for ?*</p>
         <label htmlFor="russiacheckbox">
           Scholarship in Russia
           <input
             type="checkbox"
             placeholder="Scholarship in Russia"
-            name="Scholarship in Russia"
-            id="russiacheckbox"
+            name="Scholarshipcountry"
+            id="schCheckbox"
             value="Russia"
-            ref={register({ min: 1 })}
+            ref={register}
+            onChange={checkboxHandler}
           />
         </label>
         <label htmlFor="">
@@ -73,9 +85,11 @@ export default function AboutYourSelf() {
           <input
             type="checkbox"
             placeholder="Scholarship in Germany "
-            name="Scholarship in Germany "
+            name="Scholarshipcountry"
+            id="schCheckbox"
             value="Germany"
             ref={register}
+            onChange={checkboxHandler}
           />
         </label>
         <label htmlFor="">
@@ -83,9 +97,11 @@ export default function AboutYourSelf() {
           <input
             type="checkbox"
             placeholder="Scholarship in Italy"
-            name="Scholarship in Italy"
+            name="Scholarshipcountry"
             value="Italy"
+            id="schCheckbox"
             ref={register}
+            onChange={checkboxHandler}
           />
         </label>
         <label htmlFor="">
@@ -93,9 +109,11 @@ export default function AboutYourSelf() {
           <input
             type="checkbox"
             placeholder="All of the above"
-            name="All of the above"
+            name="Scholarshipcountry"
             value="Russia,Germany,Italy"
+            id="schCheckbox"
             ref={register}
+            onChange={checkboxHandler}
           />
         </label>
         <hr />
@@ -206,10 +224,8 @@ export default function AboutYourSelf() {
           ref={register}
         />
 
-
         <input type="submit" />
       </form>
     </>
-
   );
 }

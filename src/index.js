@@ -2,16 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+//import SignIn from "./Components/SignIn";
+
 import * as serviceWorker from "./serviceWorker";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import LogRocket from 'logrocket';
-LogRocket.init('7zfawr/scholarship');
+import OTPBox from "./Components/OTPBox";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-
-
+    {/* <OTPBox /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
