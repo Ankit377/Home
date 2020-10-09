@@ -23,6 +23,8 @@ import ItalyScholarship from "./Components/ItalyScholarship";
 import CanadaScholarship from "./Components/CanadaScholarship";
 import RussiaScholarship from "./Components/RussiaScholarship";
 import EnglishCourse from "./Components/EnglishCourse";
+import EnterNumber from "./Components/EnterNumber";
+import VerifyOTP from "./Components/VerifyOTP";
 
 function App() {
   return (
@@ -30,7 +32,8 @@ function App() {
       <Router>
         <div>
           <Switch>
-            <Route exact path="/" component={Home}></Route>
+            <Route exact path="/" component={EnterNumber} />
+            <Route path="/home" component={Home}></Route>
 
             <Route path="/aboutyourself" component={AboutYourSelf}></Route>
             <Route path="/scholarship" component={Scholarship}></Route>
@@ -56,7 +59,9 @@ function App() {
             <Route path="/canadascholarship" component={CanadaScholarship} />
             <Route path="/russiascholarship" component={RussiaScholarship} />
             <Route path="/englishcourse" component={EnglishCourse} />
-            <Redirect to="/" />
+            <Route path="/verifyotp" component={VerifyOTP} />
+
+            <Redirect to="/home" />
           </Switch>
         </div>
       </Router>

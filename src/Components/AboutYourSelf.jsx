@@ -16,7 +16,7 @@ export default function AboutYourSelf() {
   };
 
   const onSubmit = (data) => {
-    validcheckbox ? alert("form submitted") : alert("please check all value");
+    validcheckbox ? console.log(data) : alert("please select country");
   };
   return (
     <>
@@ -179,7 +179,7 @@ export default function AboutYourSelf() {
         </label>
         <hr />
 
-        <label htmlFor="">Pincode</label>
+        <label htmlFor="">Pincode*</label>
         <input
           type="tel"
           placeholder="Enter Your Pincode"
@@ -224,7 +224,7 @@ export default function AboutYourSelf() {
           ref={register}
         />
 
-        <input type="submit" />
+        <input className="mb-2" type="submit" />
       </form>
     </>
   );

@@ -104,15 +104,16 @@ input[type="submit"] {
     margin: 0 auto;
   } */
 
-/* button[type="button"] {
-    display: block;
-    appearance: none;
-    background: #333;
-    color: white;
-    border: none;
-    text-transform: uppercase;
-    padding: 10px 20px;
-    border-radius: 4px;
+/* input[type="file"] {
+  display: block;
+  appearance: none;
+  background: #333;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: cadetblue;
 } */
 
 pre {

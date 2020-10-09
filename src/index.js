@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-//import SignIn from "./Components/SignIn";
+import SignIn from "./Components/SignIn";
+import EnterNumber from "./Components/EnterNumber";
 
 import * as serviceWorker from "./serviceWorker";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -12,6 +13,8 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
     {/* <OTPBox /> */}
+    {/* <SignIn /> */}
+    {/* <EnterNumber /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
