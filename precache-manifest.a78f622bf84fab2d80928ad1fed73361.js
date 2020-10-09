@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa53f957db2c9a74623471c46bab4a81",
+    "revision": "a1aeb2cfd26a93f232f9096f26f0c248",
     "url": "/schloarshipacedemy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/schloarshipacedemy/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "bd87d6ab6edd7cfe4b09",
+    "revision": "9a3a59fa3a90878049ad",
     "url": "/schloarshipacedemy/static/css/main.166f9940.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/schloarshipacedemy/static/js/2.ab29855a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd87d6ab6edd7cfe4b09",
-    "url": "/schloarshipacedemy/static/js/main.bf6a562d.chunk.js"
+    "revision": "9a3a59fa3a90878049ad",
+    "url": "/schloarshipacedemy/static/js/main.cb024b1c.chunk.js"
   },
   {
     "revision": "72343c1d922d3edd0c79",
