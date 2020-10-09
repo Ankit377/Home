@@ -61,7 +61,7 @@ function App() {
             <Route path="/englishcourse" component={EnglishCourse} />
             <Route path="/verifyotp" component={VerifyOTP} />
 
-            <Redirect to="/home" />
+            <Redirect to="/" />
           </Switch>
         </div>
       </Router>
