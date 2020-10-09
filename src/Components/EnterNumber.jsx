@@ -6,7 +6,7 @@ import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 
 var uiConFig = {
   signInFlow: "popup",
-  signInSuccessUrl: "http://localhost:3000/home",
+  signInSuccessUrl: "https://ankit377.github.io/home",
   signInOptions: [firebase.auth.PhoneAuthProvider.PROVIDER_ID],
   defaultCountry: "IN",
 
