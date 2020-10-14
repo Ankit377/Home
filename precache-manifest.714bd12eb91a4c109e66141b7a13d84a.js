@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f563fee8107a29c56c313f6ada5df2c8",
+    "revision": "453d477cd0ff19105b634f0d4f2620d6",
     "url": "/scholarshipacademy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scholarshipacademy/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "6191f8d97b704d16c4de",
+    "revision": "d865670adcf2e58e30a6",
     "url": "/scholarshipacademy/static/css/main.166f9940.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scholarshipacademy/static/js/2.61ebbdfa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6191f8d97b704d16c4de",
-    "url": "/scholarshipacademy/static/js/main.4cf147eb.chunk.js"
+    "revision": "d865670adcf2e58e30a6",
+    "url": "/scholarshipacademy/static/js/main.bc457f56.chunk.js"
   },
   {
     "revision": "c3dc93d11657c8d1c708",

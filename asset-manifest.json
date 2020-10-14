@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/scholarshipacademy/static/css/main.166f9940.chunk.css",
-    "main.js": "/scholarshipacademy/static/js/main.4cf147eb.chunk.js",
-    "main.js.map": "/scholarshipacademy/static/js/main.4cf147eb.chunk.js.map",
+    "main.js": "/scholarshipacademy/static/js/main.bc457f56.chunk.js",
+    "main.js.map": "/scholarshipacademy/static/js/main.bc457f56.chunk.js.map",
     "runtime-main.js": "/scholarshipacademy/static/js/runtime-main.f4940841.js",
     "runtime-main.js.map": "/scholarshipacademy/static/js/runtime-main.f4940841.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/scholarshipacademy/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.61ebbdfa.chunk.js": "/scholarshipacademy/static/js/2.61ebbdfa.chunk.js",
     "static/js/2.61ebbdfa.chunk.js.map": "/scholarshipacademy/static/js/2.61ebbdfa.chunk.js.map",
     "index.html": "/scholarshipacademy/index.html",
-    "precache-manifest.bb1228c1b534b546ed1ea16d35eac607.js": "/scholarshipacademy/precache-manifest.bb1228c1b534b546ed1ea16d35eac607.js",
+    "precache-manifest.714bd12eb91a4c109e66141b7a13d84a.js": "/scholarshipacademy/precache-manifest.714bd12eb91a4c109e66141b7a13d84a.js",
     "service-worker.js": "/scholarshipacademy/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/scholarshipacademy/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.166f9940.chunk.css.map": "/scholarshipacademy/static/css/main.166f9940.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.61ebbdfa.chunk.js",
     "static/css/main.166f9940.chunk.css",
-    "static/js/main.4cf147eb.chunk.js"
+    "static/js/main.bc457f56.chunk.js"
   ]
 }
