@@ -21,7 +21,11 @@ export default function AboutYourSelf() {
   return (
     <>
       <ButtonAppBar title="About Your Self" />
-      <form className="form" onSubmit={handleSubmit(onSubmit)}>
+      <form
+        className="form"
+        onSubmit={handleSubmit(onSubmit)}
+        autoComplete="on"
+      >
         <label htmlFor="">Full Name*</label>
         <input
           type="text"
