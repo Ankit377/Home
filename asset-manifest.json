@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Ankit377/schloarshipacedemy/static/css/main.166f9940.chunk.css",
-    "main.js": "/Ankit377/schloarshipacedemy/static/js/main.f2388352.chunk.js",
-    "main.js.map": "/Ankit377/schloarshipacedemy/static/js/main.f2388352.chunk.js.map",
-    "runtime-main.js": "/Ankit377/schloarshipacedemy/static/js/runtime-main.da366d5e.js",
-    "runtime-main.js.map": "/Ankit377/schloarshipacedemy/static/js/runtime-main.da366d5e.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/Ankit377/schloarshipacedemy/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.b36f932c.chunk.js": "/Ankit377/schloarshipacedemy/static/js/2.b36f932c.chunk.js",
-    "static/js/2.b36f932c.chunk.js.map": "/Ankit377/schloarshipacedemy/static/js/2.b36f932c.chunk.js.map",
-    "index.html": "/Ankit377/schloarshipacedemy/index.html",
-    "precache-manifest.857f9bf182c87699d5db0883552a7e85.js": "/Ankit377/schloarshipacedemy/precache-manifest.857f9bf182c87699d5db0883552a7e85.js",
-    "service-worker.js": "/Ankit377/schloarshipacedemy/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/Ankit377/schloarshipacedemy/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.166f9940.chunk.css.map": "/Ankit377/schloarshipacedemy/static/css/main.166f9940.chunk.css.map",
-    "static/js/2.b36f932c.chunk.js.LICENSE.txt": "/Ankit377/schloarshipacedemy/static/js/2.b36f932c.chunk.js.LICENSE.txt",
-    "static/media/finprt.jpeg": "/Ankit377/schloarshipacedemy/static/media/finprt.144af032.jpeg"
+    "main.css": "/schloarshipacedemy/static/css/main.166f9940.chunk.css",
+    "main.js": "/schloarshipacedemy/static/js/main.62b875a9.chunk.js",
+    "main.js.map": "/schloarshipacedemy/static/js/main.62b875a9.chunk.js.map",
+    "runtime-main.js": "/schloarshipacedemy/static/js/runtime-main.59287ae5.js",
+    "runtime-main.js.map": "/schloarshipacedemy/static/js/runtime-main.59287ae5.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/schloarshipacedemy/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.ab29855a.chunk.js": "/schloarshipacedemy/static/js/2.ab29855a.chunk.js",
+    "static/js/2.ab29855a.chunk.js.map": "/schloarshipacedemy/static/js/2.ab29855a.chunk.js.map",
+    "index.html": "/schloarshipacedemy/index.html",
+    "precache-manifest.db8d6281398f165850438d5de9b9e417.js": "/schloarshipacedemy/precache-manifest.db8d6281398f165850438d5de9b9e417.js",
+    "service-worker.js": "/schloarshipacedemy/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/schloarshipacedemy/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.166f9940.chunk.css.map": "/schloarshipacedemy/static/css/main.166f9940.chunk.css.map",
+    "static/js/2.ab29855a.chunk.js.LICENSE.txt": "/schloarshipacedemy/static/js/2.ab29855a.chunk.js.LICENSE.txt",
+    "static/media/finprt.jpeg": "/schloarshipacedemy/static/media/finprt.144af032.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.da366d5e.js",
+    "static/js/runtime-main.59287ae5.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.b36f932c.chunk.js",
+    "static/js/2.ab29855a.chunk.js",
     "static/css/main.166f9940.chunk.css",
-    "static/js/main.f2388352.chunk.js"
+    "static/js/main.62b875a9.chunk.js"
   ]
 }
