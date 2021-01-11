@@ -16,7 +16,7 @@ export default function WhatsAppChat(props) {
     <div>
       <ReactWhatsapp
         style={whatsAppButton}
-        number="+91 9887020529"
+        number="91-988-702-0529"
         message={props.msg}
       >
         {props.btnName}
