@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography";
 
 import IconButton from "@material-ui/core/IconButton";
 import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
+import ShareIcon from "@material-ui/icons/Share";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -25,6 +26,12 @@ const useStyles = makeStyles((theme) => ({
 export default function ButtonAppBar(props) {
   const classes = useStyles();
 
+  const shareOpts = {
+    title: "CodeBABA",
+    text: "finally share is working.",
+    url: "google.com",
+  };
+
   return (
     <div className={classes.root}>
       <AppBar position="static">
@@ -41,6 +48,16 @@ export default function ButtonAppBar(props) {
           <Typography variant="h6" className={classes.title}>
             {props.title}
           </Typography>
+
+          <IconButton
+            edge="start"
+            className={classes.backButton}
+            color="inherit"
+            aria-label="menu"
+            onClick={() => navigator.share(shareOpts)}
+          >
+            <ShareIcon />
+          </IconButton>
         </Toolbar>
       </AppBar>
     </div>
