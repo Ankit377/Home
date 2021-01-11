@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/schloarshipacedemy/static/css/main.166f9940.chunk.css",
-    "main.js": "/schloarshipacedemy/static/js/main.807562eb.chunk.js",
-    "main.js.map": "/schloarshipacedemy/static/js/main.807562eb.chunk.js.map",
+    "main.js": "/schloarshipacedemy/static/js/main.c394274d.chunk.js",
+    "main.js.map": "/schloarshipacedemy/static/js/main.c394274d.chunk.js.map",
     "runtime-main.js": "/schloarshipacedemy/static/js/runtime-main.59287ae5.js",
     "runtime-main.js.map": "/schloarshipacedemy/static/js/runtime-main.59287ae5.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/schloarshipacedemy/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.853893e5.chunk.js": "/schloarshipacedemy/static/js/2.853893e5.chunk.js",
     "static/js/2.853893e5.chunk.js.map": "/schloarshipacedemy/static/js/2.853893e5.chunk.js.map",
     "index.html": "/schloarshipacedemy/index.html",
-    "precache-manifest.220a1d574913392c0301783c2eb2e344.js": "/schloarshipacedemy/precache-manifest.220a1d574913392c0301783c2eb2e344.js",
+    "precache-manifest.f35563a196ebb85998b5564e52d90917.js": "/schloarshipacedemy/precache-manifest.f35563a196ebb85998b5564e52d90917.js",
     "service-worker.js": "/schloarshipacedemy/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/schloarshipacedemy/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.166f9940.chunk.css.map": "/schloarshipacedemy/static/css/main.166f9940.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.853893e5.chunk.js",
     "static/css/main.166f9940.chunk.css",
-    "static/js/main.807562eb.chunk.js"
+    "static/js/main.c394274d.chunk.js"
   ]
 }
