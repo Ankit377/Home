@@ -34,8 +34,8 @@ export default function ButtonAppBar(props) {
             className={classes.backButton}
             color="inherit"
             aria-label="menu"
+            onClick={() => window.history.back()}
           >
-            {/* onClick={() => window.history.back()} */}
             <KeyboardBackspaceIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>

@@ -6,6 +6,7 @@ const useStyles = makeStyles((theme) => ({
   btn: {
     margin: "15px",
     borderRadius: "20px",
+    width: "60%",
   },
 }));
 
