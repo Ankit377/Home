@@ -1,6 +1,7 @@
 import React from "react";
 import Input from "./Input";
 import Btn from "./Btn";
+import ButtonAppBar from "./ButtonAppBar";
 
 const btn = {
   margin: "20px",
@@ -10,27 +11,30 @@ const maindiv = {
   top: "30vh",
 };
 export default function SignIn() {
+  const handleSubmit = (event) => {
+    // event.preventDefault();
+  };
   return (
     <>
+      <ButtonAppBar title="User info" />
+
+      {/* design for user details */}
       <div style={maindiv}>
-        <Input
-          pattern="[0-9]"
-          type="number"
-          placeholder="Enter Mobile Number"
-        />
-        <Input
-
-          type="text"
-          placeholder="Enter Name"
-        />
-        <Input
-
-          type="email"
-          placeholder="Enter email address"
-        />
-        <div style={btn}>
-          <Btn name="Sign In">Sign In</Btn>
-        </div>
+        <form onSubmit={handleSubmit}>
+          <input
+            pattern="[0-9]"
+            type="number"
+            name="mobile_number"
+            placeholder="Enter Mobile Number"
+            required
+          />
+          <input type="text" placeholder="Enter Name" required />
+          <input type="email" placeholder="Enter email address" required />
+          {/* <div style={btn}>
+            <Btn name="Next"></Btn>
+          </div> */}
+          <input type="submit" />
+        </form>
       </div>
     </>
   );

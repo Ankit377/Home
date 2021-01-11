@@ -29,7 +29,7 @@ export default function AboutYourSelf() {
         <label htmlFor="">Full Name*</label>
         <input
           type="text"
-          name="Full Name"
+          name="FullName"
           ref={register({
             required: true,
           })}

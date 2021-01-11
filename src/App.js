@@ -25,6 +25,7 @@ import RussiaScholarship from "./Components/RussiaScholarship";
 import EnglishCourse from "./Components/EnglishCourse";
 import EnterNumber from "./Components/EnterNumber";
 import VerifyOTP from "./Components/VerifyOTP";
+import SignIn from "./Components/SignIn";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
       <Router>
         <div>
           <Switch>
-            <Route  path="/enternumber" component={EnterNumber} />
+            <Route path="/enternumber" component={EnterNumber} />
             <Route exact path="/" component={Home}></Route>
 
             <Route path="/aboutyourself" component={AboutYourSelf}></Route>
@@ -60,6 +61,7 @@ function App() {
             <Route path="/russiascholarship" component={RussiaScholarship} />
             <Route path="/englishcourse" component={EnglishCourse} />
             <Route path="/verifyotp" component={VerifyOTP} />
+            <Route path="/signin" component={SignIn} />
 
             <Redirect to="/" />
           </Switch>

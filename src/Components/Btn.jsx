@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
@@ -13,7 +13,12 @@ export default function Btn(props) {
   const classes = useStyles();
 
   return (
-    <Button variant="contained" color="primary" className={classes.btn}>
+    <Button
+      variant="contained"
+      color="primary"
+      className={classes.btn}
+      onClick={props.onClick}
+    >
       {props.name}
     </Button>
   );
