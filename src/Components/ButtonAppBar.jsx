@@ -26,11 +26,11 @@ const useStyles = makeStyles((theme) => ({
 export default function ButtonAppBar(props) {
   const classes = useStyles();
 
-  const shareOpts = {
-    title: "Scholarship Acedemy",
-    text: "Get 100% Scholarship across Europe",
-    url: "https://ankit377.github.io/schloarshipacedemy/",
-  };
+  //  share is not working on android so commented this code  const shareOpts = {
+  //   title: "Scholarship Acedemy",
+  //   text: "Get 100% Scholarship across Europe",
+  //   url: "https://ankit377.github.io/schloarshipacedemy/",
+  // };
 
   return (
     <div className={classes.root}>
@@ -49,7 +49,8 @@ export default function ButtonAppBar(props) {
             {props.title}
           </Typography>
 
-          <IconButton
+          {/* share button code 
+           <IconButton
             edge="start"
             className={classes.backButton}
             color="inherit"
@@ -57,7 +58,7 @@ export default function ButtonAppBar(props) {
             onClick={() => navigator.share(shareOpts)}
           >
             <ShareIcon />
-          </IconButton>
+          </IconButton> */}
         </Toolbar>
       </AppBar>
     </div>
