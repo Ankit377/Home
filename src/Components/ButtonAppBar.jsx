@@ -29,7 +29,7 @@ export default function ButtonAppBar(props) {
   const shareOpts = {
     title: "Scholarship Acedemy",
     text: "Get 100% Scholarship across Europe",
-    url: "ankit377.github.io/schloarshipacedemy/",
+    url: "https://ankit377.github.io/schloarshipacedemy/",
   };
 
   return (
