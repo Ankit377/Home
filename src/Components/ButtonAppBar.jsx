@@ -27,9 +27,9 @@ export default function ButtonAppBar(props) {
   const classes = useStyles();
 
   const shareOpts = {
-    title: "CodeBABA",
-    text: "finally share is working.",
-    url: "google.com",
+    title: "Scholarship Acedemy",
+    text: "Get 100% Scholarship across Europe",
+    url: "ankit377.github.io/schloarshipacedemy/",
   };
 
   return (

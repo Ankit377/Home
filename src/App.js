@@ -33,8 +33,8 @@ function App() {
       <Router>
         <div>
           <Switch>
-            <Route path="/enternumber" component={EnterNumber} />
             <Route exact path="/" component={Home}></Route>
+            <Route path="/enternumber" component={EnterNumber} />
 
             <Route path="/aboutyourself" component={AboutYourSelf}></Route>
             <Route path="/scholarship" component={Scholarship}></Route>
