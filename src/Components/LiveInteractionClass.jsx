@@ -12,24 +12,25 @@ export default function LiveInteractionClass() {
         btnName="Join Live Classes"
         msg="Hello, I would like to join German Live class"
       />
+      <hr />
       <PriceBox title="Live English Classes" price="14000-/" />
       <WhatsAppChat
         btnName="Join Live Classes"
         msg="Hello, I would like to join English Live class"
       />
-
+      <hr />
       <PriceBox title="Live GRE Classes" price="15000-/" />
       <WhatsAppChat
         btnName="Join Live Classes"
         msg="Hello, I would like to join GRE Live class"
       />
-
+      <hr />
       <PriceBox title="Live GMAT Classes" price="16000-/" />
       <WhatsAppChat
         btnName="Join Live Classes"
         msg="Hello, I would like to join GMAT Live class"
       />
-
+      <hr />
       <PriceBox title="Live ILETS Classes" price="17000-/" />
       <WhatsAppChat
         btnName="Join Live Classes"
